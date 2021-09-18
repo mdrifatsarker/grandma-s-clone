@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+:root {
+  --mainPink: #ef7998;
+  --mainYellow: rgb(249, 228, 148);
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --yellowTrans: rgba(249, 228, 148, 0.5);
+  --mainGrey: rgb(238, 238, 238);
+}
+body{
+  font-family: 'Dancing Script', cursive;
+}
+.navbar-toggler{
+  outline: none!important;
+}
+.toggler-icon{
+  color: var(--mainPink);
+  font-size: 2.5rem;
+}
+.nav-link{
+  color: var(--mainPink);
+  font-size: 2.3rem;
+  transition: all 400ms ease-in-out;
+}
+.nav-link:hover{
+  color: var(--mainBlack);
+}
+.nav-info-items{
+  color: var(--mainBlack);
+}
+.cart-info{
+  border: 0.1rem solid var(--mainBlack);
+  padding: 0.3rem 0.4rem;
+  border-radius: 0.24rem;
+  transition: all 500ms ease-in-out;
+}
+.cart-info__icon:hover{
+  color: var(--mainWhite);
+}
+.cart-info:hover{
+  background: var(--mainPink);
+  color: var(--mainWhite);
+  border-color: var(--mainPink);
+}
+/* banner area */
+.max-height{
+  min-height: calc(100vh - 81px);
+  background: linear-gradient(rgba(99, 180, 184,0.5), rgba(99, 180, 184,0.3)), url("../img/headerBcg.jpeg")center/cover no-repeat;
+  color: var(--mainWhite);
+}
+.banner-title{
+  color: var(--mainPink);
+  font-size: 4.5rem;
+  
+}
