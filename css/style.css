@@ -149,3 +149,27 @@ body{
 .service-title{
   letter-spacing: 1.2rem;
 }
+/* services */
+.pink-btn{
+  color: var(--mainPink);
+  border: 0.1rem solid var(--mainPink);
+}
+.pink-btn:hover{
+  background: var(--mainBlack);
+  color: var(--mainPink);
+}
+/* footer */
+.footer-title{
+  background: var(--mainBlack);
+}
+.footer-contact{
+  background: var(--mainGrey);
+}
+.footer-icon{
+  color: var(--mainWhite);
+  font-size: 1.5rem;
+  transition: all 400ms ease-in-out;
+}
+.footer-icon:hover{
+  color: var(--mainPink);
+}
